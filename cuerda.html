@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head> <div class="titulo">Do Mi Sol</div><br><br>
+	<title></title>
+</head><style type="text/css">
+<!--
+ body{background: url(fondo.jpg) no-repeat center;
+ 	background-size: 2000px 1500px}
+
+			* {
+				margin:0px;
+				padding:0px;
+			}
+				#header {
+				margin:auto;
+				width:1200px;
+				
+			}
+			.titulo{color: white;
+				font-size: 100px;
+			}
+
+
+			ul, ol {
+				list-style:none;
+			}
+
+			.nav > li {
+				float:left;
+			}
+
+			.nav li a {
+				background-color:black;
+				color:yellow;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+
+			.nav li a:hover {
+				background-color:brown;
+			}
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			.nav li ul li {
+				position:relative;
+			}
+
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+->
+
+		</style>
+	</head>
+	<body  background="fondo.jpg" width="100px" >
+		
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="quienessomos.html">Quienes Somos</a>
+				</li>
+
+				<li><a href="mision.html">Mision y Vision</a></li>
+					
+				<li><a href="productos.html">Nuestros Productos</a>
+					<ul>
+					<li><a href="cuerda.html">Instrumentos de Cuerda</a></li>
+						<li><a href="viento.html">Instrumentos de Viento</a></li>
+						<li><a href="percucion.html">Instrumentos de Percucion</a></li>	
+					</ul>
+				</li>
+
+				<li><a href="clientes.html">Nuestros Clientes</a>
+					
+				</li>
+
+				<li><a href="contactenos.html">Contactenos</a>
+					
+				</li>
+
+			</ul>
+		</div>
+		<br>
+		<br> 
+
+
+<center>
+<h2  class="center"><font color="white">Cuerda</font></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="cuerda/b1.jpg" style="width:25%">
+  <img class="mySlides" src="cuerda/g1.jpg" style="width:25%">
+  <img class="mySlides" src="cuerda/g2.jpg" style="width:25%">
+  <img class="mySlides" src="cuerda/v1.jpg" style="width:25%">
+ 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</center>
+
+
+
+</body>
+<br>
+<br><br><br>
+<footer>
+	<center>
+		<a href="https://www.facebook.com/domisolmusic/"><img src="enlaces/face.jpg"  width="50" height="50" ></a>
+		<a href="http://www.domisolmusic.com/instagram/"><img src="enlaces/insta.jpg" width="50" height="50" ></a>
+		<a href="https://www.umg.edu.gt/"><img src="enlaces/umg.jpg"  width="50" height="50" ></a>
+		<br>
+		<br>
+		<br> 
+		"Conoceras la Verdad y la Verdad os hara Libres"
+		 Correo:  domisol@domisol.com
+		<br>
+		Comunícate al: 2328-8308</center>
+	
+</footer>
+</html>
